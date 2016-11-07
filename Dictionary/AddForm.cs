@@ -11,34 +11,37 @@ using System.Windows.Forms;
 
 namespace Dictionary
 {
-    public partial class MainForm : Form
+    public partial class AddForm : Form
     {
         SqlConnection con = new SqlConnection(@"Server=localhost;Database=Dictionary;Integrated Security=SSPI");
         SqlCommand cmd;
         SqlDataAdapter adapt;
 
-        public MainForm()
+        public AddForm()
         {
             InitializeComponent();
-            DisplayData();
         }
 
-        private void DisplayData()
+        private void button2_Click(object sender, EventArgs e)
         {
-//            con.Open();
-//            DataTable dt = new DataTable();
-//            adapt = new SqlDataAdapter("select * from WordBank", con);
-//            adapt.Fill(dt);
-//            dataGridView1.DataSource = dt;
-//            con.Close();
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            AddForm addForm = new AddForm();
-            addForm.Show();
+            MainForm mainForm = new MainForm();
+            mainForm.Show();
             this.Hide();
+                }
+
+        private void addFrmWrd_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void updateFrmWrd_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void searchFrmBtn_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

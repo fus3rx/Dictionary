@@ -1,6 +1,6 @@
 ﻿namespace Dictionary
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,417 +28,409 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.addFormBtn = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel4 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel5 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel6 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel7 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel8 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel9 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel10 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel11 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel12 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel13 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel14 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel15 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel16 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel17 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel18 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel19 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel20 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel21 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel22 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel23 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel24 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel25 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel26 = new System.Windows.Forms.LinkLabel();
+            this.searchWrdBtn = new System.Windows.Forms.Button();
+            this.alinkLabel = new System.Windows.Forms.LinkLabel();
+            this.blinkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.clinkLabel3 = new System.Windows.Forms.LinkLabel();
+            this.dlinkLabel4 = new System.Windows.Forms.LinkLabel();
+            this.elinkLabel5 = new System.Windows.Forms.LinkLabel();
+            this.jlinkLabel6 = new System.Windows.Forms.LinkLabel();
+            this.ilinkLabel7 = new System.Windows.Forms.LinkLabel();
+            this.hlinkLabel8 = new System.Windows.Forms.LinkLabel();
+            this.glinkLabel9 = new System.Windows.Forms.LinkLabel();
+            this.flinkLabel10 = new System.Windows.Forms.LinkLabel();
+            this.olinkLabel11 = new System.Windows.Forms.LinkLabel();
+            this.nlinkLabel12 = new System.Windows.Forms.LinkLabel();
+            this.mlinkLabel13 = new System.Windows.Forms.LinkLabel();
+            this.llinkLabel14 = new System.Windows.Forms.LinkLabel();
+            this.klinkLabel15 = new System.Windows.Forms.LinkLabel();
+            this.tlinkLabel16 = new System.Windows.Forms.LinkLabel();
+            this.slinkLabel17 = new System.Windows.Forms.LinkLabel();
+            this.rlinkLabel18 = new System.Windows.Forms.LinkLabel();
+            this.qlinkLabel19 = new System.Windows.Forms.LinkLabel();
+            this.plinkLabel20 = new System.Windows.Forms.LinkLabel();
+            this.ylinkLabel21 = new System.Windows.Forms.LinkLabel();
+            this.xlinkLabel22 = new System.Windows.Forms.LinkLabel();
+            this.wlinkLabel23 = new System.Windows.Forms.LinkLabel();
+            this.vlinkLabel24 = new System.Windows.Forms.LinkLabel();
+            this.ulinkLabel25 = new System.Windows.Forms.LinkLabel();
+            this.zlinkLabel26 = new System.Windows.Forms.LinkLabel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // addFormBtn
             // 
-            this.button1.Location = new System.Drawing.Point(61, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(55, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Add";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(127, 12);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(55, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Edit";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(190, 12);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(55, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Delete";
-            this.button3.UseVisualStyleBackColor = true;
+            this.addFormBtn.BackColor = System.Drawing.Color.Linen;
+            this.addFormBtn.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addFormBtn.Location = new System.Drawing.Point(26, 11);
+            this.addFormBtn.Name = "addFormBtn";
+            this.addFormBtn.Size = new System.Drawing.Size(73, 23);
+            this.addFormBtn.TabIndex = 0;
+            this.addFormBtn.Text = "Add Word";
+            this.addFormBtn.UseVisualStyleBackColor = false;
+            this.addFormBtn.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(308, 12);
+            this.textBox1.Location = new System.Drawing.Point(276, 12);
+            this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.Size = new System.Drawing.Size(132, 23);
             this.textBox1.TabIndex = 3;
             // 
-            // button4
+            // searchWrdBtn
             // 
-            this.button4.Location = new System.Drawing.Point(414, 12);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(49, 23);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "search";
-            this.button4.UseVisualStyleBackColor = true;
+            this.searchWrdBtn.BackColor = System.Drawing.Color.Linen;
+            this.searchWrdBtn.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.searchWrdBtn.Location = new System.Drawing.Point(414, 12);
+            this.searchWrdBtn.Name = "searchWrdBtn";
+            this.searchWrdBtn.Size = new System.Drawing.Size(49, 23);
+            this.searchWrdBtn.TabIndex = 4;
+            this.searchWrdBtn.Text = "Search";
+            this.searchWrdBtn.UseVisualStyleBackColor = false;
             // 
-            // linkLabel1
+            // alinkLabel
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.Location = new System.Drawing.Point(24, 48);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(10, 9);
-            this.linkLabel1.TabIndex = 5;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "A";
+            this.alinkLabel.AutoSize = true;
+            this.alinkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.alinkLabel.Location = new System.Drawing.Point(24, 48);
+            this.alinkLabel.Name = "alinkLabel";
+            this.alinkLabel.Size = new System.Drawing.Size(10, 9);
+            this.alinkLabel.TabIndex = 5;
+            this.alinkLabel.TabStop = true;
+            this.alinkLabel.Text = "A";
             // 
-            // linkLabel2
+            // blinkLabel2
             // 
-            this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel2.Location = new System.Drawing.Point(40, 48);
-            this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(10, 9);
-            this.linkLabel2.TabIndex = 6;
-            this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "B";
+            this.blinkLabel2.AutoSize = true;
+            this.blinkLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.blinkLabel2.Location = new System.Drawing.Point(40, 48);
+            this.blinkLabel2.Name = "blinkLabel2";
+            this.blinkLabel2.Size = new System.Drawing.Size(10, 9);
+            this.blinkLabel2.TabIndex = 6;
+            this.blinkLabel2.TabStop = true;
+            this.blinkLabel2.Text = "B";
             // 
-            // linkLabel3
+            // clinkLabel3
             // 
-            this.linkLabel3.AutoSize = true;
-            this.linkLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel3.Location = new System.Drawing.Point(56, 48);
-            this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(11, 9);
-            this.linkLabel3.TabIndex = 7;
-            this.linkLabel3.TabStop = true;
-            this.linkLabel3.Text = "C";
+            this.clinkLabel3.AutoSize = true;
+            this.clinkLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clinkLabel3.Location = new System.Drawing.Point(56, 48);
+            this.clinkLabel3.Name = "clinkLabel3";
+            this.clinkLabel3.Size = new System.Drawing.Size(11, 9);
+            this.clinkLabel3.TabIndex = 7;
+            this.clinkLabel3.TabStop = true;
+            this.clinkLabel3.Text = "C";
             // 
-            // linkLabel4
+            // dlinkLabel4
             // 
-            this.linkLabel4.AutoSize = true;
-            this.linkLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel4.Location = new System.Drawing.Point(73, 48);
-            this.linkLabel4.Name = "linkLabel4";
-            this.linkLabel4.Size = new System.Drawing.Size(11, 9);
-            this.linkLabel4.TabIndex = 8;
-            this.linkLabel4.TabStop = true;
-            this.linkLabel4.Text = "D";
+            this.dlinkLabel4.AutoSize = true;
+            this.dlinkLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dlinkLabel4.Location = new System.Drawing.Point(73, 48);
+            this.dlinkLabel4.Name = "dlinkLabel4";
+            this.dlinkLabel4.Size = new System.Drawing.Size(11, 9);
+            this.dlinkLabel4.TabIndex = 8;
+            this.dlinkLabel4.TabStop = true;
+            this.dlinkLabel4.Text = "D";
             // 
-            // linkLabel5
+            // elinkLabel5
             // 
-            this.linkLabel5.AutoSize = true;
-            this.linkLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel5.Location = new System.Drawing.Point(90, 48);
-            this.linkLabel5.Name = "linkLabel5";
-            this.linkLabel5.Size = new System.Drawing.Size(10, 9);
-            this.linkLabel5.TabIndex = 9;
-            this.linkLabel5.TabStop = true;
-            this.linkLabel5.Text = "E";
+            this.elinkLabel5.AutoSize = true;
+            this.elinkLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.elinkLabel5.Location = new System.Drawing.Point(90, 48);
+            this.elinkLabel5.Name = "elinkLabel5";
+            this.elinkLabel5.Size = new System.Drawing.Size(10, 9);
+            this.elinkLabel5.TabIndex = 9;
+            this.elinkLabel5.TabStop = true;
+            this.elinkLabel5.Text = "E";
             // 
-            // linkLabel6
+            // jlinkLabel6
             // 
-            this.linkLabel6.AutoSize = true;
-            this.linkLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel6.Location = new System.Drawing.Point(173, 48);
-            this.linkLabel6.Name = "linkLabel6";
-            this.linkLabel6.Size = new System.Drawing.Size(9, 9);
-            this.linkLabel6.TabIndex = 14;
-            this.linkLabel6.TabStop = true;
-            this.linkLabel6.Text = "J";
+            this.jlinkLabel6.AutoSize = true;
+            this.jlinkLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.jlinkLabel6.Location = new System.Drawing.Point(173, 48);
+            this.jlinkLabel6.Name = "jlinkLabel6";
+            this.jlinkLabel6.Size = new System.Drawing.Size(9, 9);
+            this.jlinkLabel6.TabIndex = 14;
+            this.jlinkLabel6.TabStop = true;
+            this.jlinkLabel6.Text = "J";
             // 
-            // linkLabel7
+            // ilinkLabel7
             // 
-            this.linkLabel7.AutoSize = true;
-            this.linkLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel7.Location = new System.Drawing.Point(160, 48);
-            this.linkLabel7.Name = "linkLabel7";
-            this.linkLabel7.Size = new System.Drawing.Size(7, 9);
-            this.linkLabel7.TabIndex = 13;
-            this.linkLabel7.TabStop = true;
-            this.linkLabel7.Text = "I";
+            this.ilinkLabel7.AutoSize = true;
+            this.ilinkLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ilinkLabel7.Location = new System.Drawing.Point(160, 48);
+            this.ilinkLabel7.Name = "ilinkLabel7";
+            this.ilinkLabel7.Size = new System.Drawing.Size(7, 9);
+            this.ilinkLabel7.TabIndex = 13;
+            this.ilinkLabel7.TabStop = true;
+            this.ilinkLabel7.Text = "I";
             // 
-            // linkLabel8
+            // hlinkLabel8
             // 
-            this.linkLabel8.AutoSize = true;
-            this.linkLabel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel8.Location = new System.Drawing.Point(143, 48);
-            this.linkLabel8.Name = "linkLabel8";
-            this.linkLabel8.Size = new System.Drawing.Size(11, 9);
-            this.linkLabel8.TabIndex = 12;
-            this.linkLabel8.TabStop = true;
-            this.linkLabel8.Text = "H";
+            this.hlinkLabel8.AutoSize = true;
+            this.hlinkLabel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hlinkLabel8.Location = new System.Drawing.Point(143, 48);
+            this.hlinkLabel8.Name = "hlinkLabel8";
+            this.hlinkLabel8.Size = new System.Drawing.Size(11, 9);
+            this.hlinkLabel8.TabIndex = 12;
+            this.hlinkLabel8.TabStop = true;
+            this.hlinkLabel8.Text = "H";
             // 
-            // linkLabel9
+            // glinkLabel9
             // 
-            this.linkLabel9.AutoSize = true;
-            this.linkLabel9.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel9.Location = new System.Drawing.Point(122, 48);
-            this.linkLabel9.Name = "linkLabel9";
-            this.linkLabel9.Size = new System.Drawing.Size(11, 9);
-            this.linkLabel9.TabIndex = 11;
-            this.linkLabel9.TabStop = true;
-            this.linkLabel9.Text = "G";
+            this.glinkLabel9.AutoSize = true;
+            this.glinkLabel9.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.glinkLabel9.Location = new System.Drawing.Point(122, 48);
+            this.glinkLabel9.Name = "glinkLabel9";
+            this.glinkLabel9.Size = new System.Drawing.Size(11, 9);
+            this.glinkLabel9.TabIndex = 11;
+            this.glinkLabel9.TabStop = true;
+            this.glinkLabel9.Text = "G";
             // 
-            // linkLabel10
+            // flinkLabel10
             // 
-            this.linkLabel10.AutoSize = true;
-            this.linkLabel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel10.Location = new System.Drawing.Point(106, 48);
-            this.linkLabel10.Name = "linkLabel10";
-            this.linkLabel10.Size = new System.Drawing.Size(10, 9);
-            this.linkLabel10.TabIndex = 10;
-            this.linkLabel10.TabStop = true;
-            this.linkLabel10.Text = "F";
+            this.flinkLabel10.AutoSize = true;
+            this.flinkLabel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.flinkLabel10.Location = new System.Drawing.Point(106, 48);
+            this.flinkLabel10.Name = "flinkLabel10";
+            this.flinkLabel10.Size = new System.Drawing.Size(10, 9);
+            this.flinkLabel10.TabIndex = 10;
+            this.flinkLabel10.TabStop = true;
+            this.flinkLabel10.Text = "F";
             // 
-            // linkLabel11
+            // olinkLabel11
             // 
-            this.linkLabel11.AutoSize = true;
-            this.linkLabel11.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel11.Location = new System.Drawing.Point(257, 48);
-            this.linkLabel11.Name = "linkLabel11";
-            this.linkLabel11.Size = new System.Drawing.Size(11, 9);
-            this.linkLabel11.TabIndex = 19;
-            this.linkLabel11.TabStop = true;
-            this.linkLabel11.Text = "O";
+            this.olinkLabel11.AutoSize = true;
+            this.olinkLabel11.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.olinkLabel11.Location = new System.Drawing.Point(257, 48);
+            this.olinkLabel11.Name = "olinkLabel11";
+            this.olinkLabel11.Size = new System.Drawing.Size(11, 9);
+            this.olinkLabel11.TabIndex = 19;
+            this.olinkLabel11.TabStop = true;
+            this.olinkLabel11.Text = "O";
             // 
-            // linkLabel12
+            // nlinkLabel12
             // 
-            this.linkLabel12.AutoSize = true;
-            this.linkLabel12.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel12.Location = new System.Drawing.Point(238, 48);
-            this.linkLabel12.Name = "linkLabel12";
-            this.linkLabel12.Size = new System.Drawing.Size(11, 9);
-            this.linkLabel12.TabIndex = 18;
-            this.linkLabel12.TabStop = true;
-            this.linkLabel12.Text = "N";
+            this.nlinkLabel12.AutoSize = true;
+            this.nlinkLabel12.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nlinkLabel12.Location = new System.Drawing.Point(238, 48);
+            this.nlinkLabel12.Name = "nlinkLabel12";
+            this.nlinkLabel12.Size = new System.Drawing.Size(11, 9);
+            this.nlinkLabel12.TabIndex = 18;
+            this.nlinkLabel12.TabStop = true;
+            this.nlinkLabel12.Text = "N";
             // 
-            // linkLabel13
+            // mlinkLabel13
             // 
-            this.linkLabel13.AutoSize = true;
-            this.linkLabel13.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel13.Location = new System.Drawing.Point(220, 48);
-            this.linkLabel13.Name = "linkLabel13";
-            this.linkLabel13.Size = new System.Drawing.Size(12, 9);
-            this.linkLabel13.TabIndex = 17;
-            this.linkLabel13.TabStop = true;
-            this.linkLabel13.Text = "M";
+            this.mlinkLabel13.AutoSize = true;
+            this.mlinkLabel13.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mlinkLabel13.Location = new System.Drawing.Point(220, 48);
+            this.mlinkLabel13.Name = "mlinkLabel13";
+            this.mlinkLabel13.Size = new System.Drawing.Size(12, 9);
+            this.mlinkLabel13.TabIndex = 17;
+            this.mlinkLabel13.TabStop = true;
+            this.mlinkLabel13.Text = "M";
             // 
-            // linkLabel14
+            // llinkLabel14
             // 
-            this.linkLabel14.AutoSize = true;
-            this.linkLabel14.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel14.Location = new System.Drawing.Point(205, 48);
-            this.linkLabel14.Name = "linkLabel14";
-            this.linkLabel14.Size = new System.Drawing.Size(9, 9);
-            this.linkLabel14.TabIndex = 16;
-            this.linkLabel14.TabStop = true;
-            this.linkLabel14.Text = "L";
+            this.llinkLabel14.AutoSize = true;
+            this.llinkLabel14.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.llinkLabel14.Location = new System.Drawing.Point(205, 48);
+            this.llinkLabel14.Name = "llinkLabel14";
+            this.llinkLabel14.Size = new System.Drawing.Size(9, 9);
+            this.llinkLabel14.TabIndex = 16;
+            this.llinkLabel14.TabStop = true;
+            this.llinkLabel14.Text = "L";
             // 
-            // linkLabel15
+            // klinkLabel15
             // 
-            this.linkLabel15.AutoSize = true;
-            this.linkLabel15.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel15.Location = new System.Drawing.Point(188, 48);
-            this.linkLabel15.Name = "linkLabel15";
-            this.linkLabel15.Size = new System.Drawing.Size(10, 9);
-            this.linkLabel15.TabIndex = 15;
-            this.linkLabel15.TabStop = true;
-            this.linkLabel15.Text = "K";
+            this.klinkLabel15.AutoSize = true;
+            this.klinkLabel15.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.klinkLabel15.Location = new System.Drawing.Point(188, 48);
+            this.klinkLabel15.Name = "klinkLabel15";
+            this.klinkLabel15.Size = new System.Drawing.Size(10, 9);
+            this.klinkLabel15.TabIndex = 15;
+            this.klinkLabel15.TabStop = true;
+            this.klinkLabel15.Text = "K";
             // 
-            // linkLabel16
+            // tlinkLabel16
             // 
-            this.linkLabel16.AutoSize = true;
-            this.linkLabel16.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel16.Location = new System.Drawing.Point(336, 48);
-            this.linkLabel16.Name = "linkLabel16";
-            this.linkLabel16.Size = new System.Drawing.Size(10, 9);
-            this.linkLabel16.TabIndex = 24;
-            this.linkLabel16.TabStop = true;
-            this.linkLabel16.Text = "T";
+            this.tlinkLabel16.AutoSize = true;
+            this.tlinkLabel16.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tlinkLabel16.Location = new System.Drawing.Point(336, 48);
+            this.tlinkLabel16.Name = "tlinkLabel16";
+            this.tlinkLabel16.Size = new System.Drawing.Size(10, 9);
+            this.tlinkLabel16.TabIndex = 24;
+            this.tlinkLabel16.TabStop = true;
+            this.tlinkLabel16.Text = "T";
             // 
-            // linkLabel17
+            // slinkLabel17
             // 
-            this.linkLabel17.AutoSize = true;
-            this.linkLabel17.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel17.Location = new System.Drawing.Point(321, 48);
-            this.linkLabel17.Name = "linkLabel17";
-            this.linkLabel17.Size = new System.Drawing.Size(10, 9);
-            this.linkLabel17.TabIndex = 23;
-            this.linkLabel17.TabStop = true;
-            this.linkLabel17.Text = "S";
+            this.slinkLabel17.AutoSize = true;
+            this.slinkLabel17.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.slinkLabel17.Location = new System.Drawing.Point(321, 48);
+            this.slinkLabel17.Name = "slinkLabel17";
+            this.slinkLabel17.Size = new System.Drawing.Size(10, 9);
+            this.slinkLabel17.TabIndex = 23;
+            this.slinkLabel17.TabStop = true;
+            this.slinkLabel17.Text = "S";
             // 
-            // linkLabel18
+            // rlinkLabel18
             // 
-            this.linkLabel18.AutoSize = true;
-            this.linkLabel18.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel18.Location = new System.Drawing.Point(307, 48);
-            this.linkLabel18.Name = "linkLabel18";
-            this.linkLabel18.Size = new System.Drawing.Size(11, 9);
-            this.linkLabel18.TabIndex = 22;
-            this.linkLabel18.TabStop = true;
-            this.linkLabel18.Text = "R";
+            this.rlinkLabel18.AutoSize = true;
+            this.rlinkLabel18.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rlinkLabel18.Location = new System.Drawing.Point(307, 48);
+            this.rlinkLabel18.Name = "rlinkLabel18";
+            this.rlinkLabel18.Size = new System.Drawing.Size(11, 9);
+            this.rlinkLabel18.TabIndex = 22;
+            this.rlinkLabel18.TabStop = true;
+            this.rlinkLabel18.Text = "R";
             // 
-            // linkLabel19
+            // qlinkLabel19
             // 
-            this.linkLabel19.AutoSize = true;
-            this.linkLabel19.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel19.Location = new System.Drawing.Point(290, 48);
-            this.linkLabel19.Name = "linkLabel19";
-            this.linkLabel19.Size = new System.Drawing.Size(11, 9);
-            this.linkLabel19.TabIndex = 21;
-            this.linkLabel19.TabStop = true;
-            this.linkLabel19.Text = "Q";
+            this.qlinkLabel19.AutoSize = true;
+            this.qlinkLabel19.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.qlinkLabel19.Location = new System.Drawing.Point(290, 48);
+            this.qlinkLabel19.Name = "qlinkLabel19";
+            this.qlinkLabel19.Size = new System.Drawing.Size(11, 9);
+            this.qlinkLabel19.TabIndex = 21;
+            this.qlinkLabel19.TabStop = true;
+            this.qlinkLabel19.Text = "Q";
             // 
-            // linkLabel20
+            // plinkLabel20
             // 
-            this.linkLabel20.AutoSize = true;
-            this.linkLabel20.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel20.Location = new System.Drawing.Point(274, 48);
-            this.linkLabel20.Name = "linkLabel20";
-            this.linkLabel20.Size = new System.Drawing.Size(10, 9);
-            this.linkLabel20.TabIndex = 20;
-            this.linkLabel20.TabStop = true;
-            this.linkLabel20.Text = "P";
+            this.plinkLabel20.AutoSize = true;
+            this.plinkLabel20.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.plinkLabel20.Location = new System.Drawing.Point(274, 48);
+            this.plinkLabel20.Name = "plinkLabel20";
+            this.plinkLabel20.Size = new System.Drawing.Size(10, 9);
+            this.plinkLabel20.TabIndex = 20;
+            this.plinkLabel20.TabStop = true;
+            this.plinkLabel20.Text = "P";
             // 
-            // linkLabel21
+            // ylinkLabel21
             // 
-            this.linkLabel21.AutoSize = true;
-            this.linkLabel21.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel21.Location = new System.Drawing.Point(419, 48);
-            this.linkLabel21.Name = "linkLabel21";
-            this.linkLabel21.Size = new System.Drawing.Size(10, 9);
-            this.linkLabel21.TabIndex = 29;
-            this.linkLabel21.TabStop = true;
-            this.linkLabel21.Text = "Y";
+            this.ylinkLabel21.AutoSize = true;
+            this.ylinkLabel21.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ylinkLabel21.Location = new System.Drawing.Point(419, 48);
+            this.ylinkLabel21.Name = "ylinkLabel21";
+            this.ylinkLabel21.Size = new System.Drawing.Size(10, 9);
+            this.ylinkLabel21.TabIndex = 29;
+            this.ylinkLabel21.TabStop = true;
+            this.ylinkLabel21.Text = "Y";
             // 
-            // linkLabel22
+            // xlinkLabel22
             // 
-            this.linkLabel22.AutoSize = true;
-            this.linkLabel22.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel22.Location = new System.Drawing.Point(403, 48);
-            this.linkLabel22.Name = "linkLabel22";
-            this.linkLabel22.Size = new System.Drawing.Size(10, 9);
-            this.linkLabel22.TabIndex = 28;
-            this.linkLabel22.TabStop = true;
-            this.linkLabel22.Text = "X";
+            this.xlinkLabel22.AutoSize = true;
+            this.xlinkLabel22.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xlinkLabel22.Location = new System.Drawing.Point(403, 48);
+            this.xlinkLabel22.Name = "xlinkLabel22";
+            this.xlinkLabel22.Size = new System.Drawing.Size(10, 9);
+            this.xlinkLabel22.TabIndex = 28;
+            this.xlinkLabel22.TabStop = true;
+            this.xlinkLabel22.Text = "X";
             // 
-            // linkLabel23
+            // wlinkLabel23
             // 
-            this.linkLabel23.AutoSize = true;
-            this.linkLabel23.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel23.Location = new System.Drawing.Point(384, 48);
-            this.linkLabel23.Name = "linkLabel23";
-            this.linkLabel23.Size = new System.Drawing.Size(13, 9);
-            this.linkLabel23.TabIndex = 27;
-            this.linkLabel23.TabStop = true;
-            this.linkLabel23.Text = "W";
+            this.wlinkLabel23.AutoSize = true;
+            this.wlinkLabel23.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wlinkLabel23.Location = new System.Drawing.Point(384, 48);
+            this.wlinkLabel23.Name = "wlinkLabel23";
+            this.wlinkLabel23.Size = new System.Drawing.Size(13, 9);
+            this.wlinkLabel23.TabIndex = 27;
+            this.wlinkLabel23.TabStop = true;
+            this.wlinkLabel23.Text = "W";
             // 
-            // linkLabel24
+            // vlinkLabel24
             // 
-            this.linkLabel24.AutoSize = true;
-            this.linkLabel24.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel24.Location = new System.Drawing.Point(368, 48);
-            this.linkLabel24.Name = "linkLabel24";
-            this.linkLabel24.Size = new System.Drawing.Size(10, 9);
-            this.linkLabel24.TabIndex = 26;
-            this.linkLabel24.TabStop = true;
-            this.linkLabel24.Text = "V";
+            this.vlinkLabel24.AutoSize = true;
+            this.vlinkLabel24.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vlinkLabel24.Location = new System.Drawing.Point(368, 48);
+            this.vlinkLabel24.Name = "vlinkLabel24";
+            this.vlinkLabel24.Size = new System.Drawing.Size(10, 9);
+            this.vlinkLabel24.TabIndex = 26;
+            this.vlinkLabel24.TabStop = true;
+            this.vlinkLabel24.Text = "V";
             // 
-            // linkLabel25
+            // ulinkLabel25
             // 
-            this.linkLabel25.AutoSize = true;
-            this.linkLabel25.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel25.Location = new System.Drawing.Point(352, 48);
-            this.linkLabel25.Name = "linkLabel25";
-            this.linkLabel25.Size = new System.Drawing.Size(11, 9);
-            this.linkLabel25.TabIndex = 25;
-            this.linkLabel25.TabStop = true;
-            this.linkLabel25.Text = "U";
+            this.ulinkLabel25.AutoSize = true;
+            this.ulinkLabel25.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ulinkLabel25.Location = new System.Drawing.Point(352, 48);
+            this.ulinkLabel25.Name = "ulinkLabel25";
+            this.ulinkLabel25.Size = new System.Drawing.Size(11, 9);
+            this.ulinkLabel25.TabIndex = 25;
+            this.ulinkLabel25.TabStop = true;
+            this.ulinkLabel25.Text = "U";
             // 
-            // linkLabel26
+            // zlinkLabel26
             // 
-            this.linkLabel26.AutoSize = true;
-            this.linkLabel26.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel26.Location = new System.Drawing.Point(435, 48);
-            this.linkLabel26.Name = "linkLabel26";
-            this.linkLabel26.Size = new System.Drawing.Size(10, 9);
-            this.linkLabel26.TabIndex = 30;
-            this.linkLabel26.TabStop = true;
-            this.linkLabel26.Text = "Z";
+            this.zlinkLabel26.AutoSize = true;
+            this.zlinkLabel26.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.zlinkLabel26.Location = new System.Drawing.Point(435, 48);
+            this.zlinkLabel26.Name = "zlinkLabel26";
+            this.zlinkLabel26.Size = new System.Drawing.Size(10, 9);
+            this.zlinkLabel26.TabIndex = 30;
+            this.zlinkLabel26.TabStop = true;
+            this.zlinkLabel26.Text = "Z";
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(26, 72);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(419, 260);
             this.dataGridView1.TabIndex = 31;
             // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Snow;
             this.ClientSize = new System.Drawing.Size(469, 350);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.linkLabel26);
-            this.Controls.Add(this.linkLabel21);
-            this.Controls.Add(this.linkLabel22);
-            this.Controls.Add(this.linkLabel23);
-            this.Controls.Add(this.linkLabel24);
-            this.Controls.Add(this.linkLabel25);
-            this.Controls.Add(this.linkLabel16);
-            this.Controls.Add(this.linkLabel17);
-            this.Controls.Add(this.linkLabel18);
-            this.Controls.Add(this.linkLabel19);
-            this.Controls.Add(this.linkLabel20);
-            this.Controls.Add(this.linkLabel11);
-            this.Controls.Add(this.linkLabel12);
-            this.Controls.Add(this.linkLabel13);
-            this.Controls.Add(this.linkLabel14);
-            this.Controls.Add(this.linkLabel15);
-            this.Controls.Add(this.linkLabel6);
-            this.Controls.Add(this.linkLabel7);
-            this.Controls.Add(this.linkLabel8);
-            this.Controls.Add(this.linkLabel9);
-            this.Controls.Add(this.linkLabel10);
-            this.Controls.Add(this.linkLabel5);
-            this.Controls.Add(this.linkLabel4);
-            this.Controls.Add(this.linkLabel3);
-            this.Controls.Add(this.linkLabel2);
-            this.Controls.Add(this.linkLabel1);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.zlinkLabel26);
+            this.Controls.Add(this.ylinkLabel21);
+            this.Controls.Add(this.xlinkLabel22);
+            this.Controls.Add(this.wlinkLabel23);
+            this.Controls.Add(this.vlinkLabel24);
+            this.Controls.Add(this.ulinkLabel25);
+            this.Controls.Add(this.tlinkLabel16);
+            this.Controls.Add(this.slinkLabel17);
+            this.Controls.Add(this.rlinkLabel18);
+            this.Controls.Add(this.qlinkLabel19);
+            this.Controls.Add(this.plinkLabel20);
+            this.Controls.Add(this.olinkLabel11);
+            this.Controls.Add(this.nlinkLabel12);
+            this.Controls.Add(this.mlinkLabel13);
+            this.Controls.Add(this.llinkLabel14);
+            this.Controls.Add(this.klinkLabel15);
+            this.Controls.Add(this.jlinkLabel6);
+            this.Controls.Add(this.ilinkLabel7);
+            this.Controls.Add(this.hlinkLabel8);
+            this.Controls.Add(this.glinkLabel9);
+            this.Controls.Add(this.flinkLabel10);
+            this.Controls.Add(this.elinkLabel5);
+            this.Controls.Add(this.dlinkLabel4);
+            this.Controls.Add(this.clinkLabel3);
+            this.Controls.Add(this.blinkLabel2);
+            this.Controls.Add(this.alinkLabel);
+            this.Controls.Add(this.searchWrdBtn);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Controls.Add(this.addFormBtn);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(485, 389);
+            this.MinimumSize = new System.Drawing.Size(485, 389);
+            this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "English TO Bangla";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -447,37 +439,35 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button addFormBtn;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.LinkLabel linkLabel1;
-        private System.Windows.Forms.LinkLabel linkLabel2;
-        private System.Windows.Forms.LinkLabel linkLabel3;
-        private System.Windows.Forms.LinkLabel linkLabel4;
-        private System.Windows.Forms.LinkLabel linkLabel5;
-        private System.Windows.Forms.LinkLabel linkLabel6;
-        private System.Windows.Forms.LinkLabel linkLabel7;
-        private System.Windows.Forms.LinkLabel linkLabel8;
-        private System.Windows.Forms.LinkLabel linkLabel9;
-        private System.Windows.Forms.LinkLabel linkLabel10;
-        private System.Windows.Forms.LinkLabel linkLabel11;
-        private System.Windows.Forms.LinkLabel linkLabel12;
-        private System.Windows.Forms.LinkLabel linkLabel13;
-        private System.Windows.Forms.LinkLabel linkLabel14;
-        private System.Windows.Forms.LinkLabel linkLabel15;
-        private System.Windows.Forms.LinkLabel linkLabel16;
-        private System.Windows.Forms.LinkLabel linkLabel17;
-        private System.Windows.Forms.LinkLabel linkLabel18;
-        private System.Windows.Forms.LinkLabel linkLabel19;
-        private System.Windows.Forms.LinkLabel linkLabel20;
-        private System.Windows.Forms.LinkLabel linkLabel21;
-        private System.Windows.Forms.LinkLabel linkLabel22;
-        private System.Windows.Forms.LinkLabel linkLabel23;
-        private System.Windows.Forms.LinkLabel linkLabel24;
-        private System.Windows.Forms.LinkLabel linkLabel25;
-        private System.Windows.Forms.LinkLabel linkLabel26;
+        private System.Windows.Forms.Button searchWrdBtn;
+        private System.Windows.Forms.LinkLabel alinkLabel;
+        private System.Windows.Forms.LinkLabel blinkLabel2;
+        private System.Windows.Forms.LinkLabel clinkLabel3;
+        private System.Windows.Forms.LinkLabel dlinkLabel4;
+        private System.Windows.Forms.LinkLabel elinkLabel5;
+        private System.Windows.Forms.LinkLabel jlinkLabel6;
+        private System.Windows.Forms.LinkLabel ilinkLabel7;
+        private System.Windows.Forms.LinkLabel hlinkLabel8;
+        private System.Windows.Forms.LinkLabel glinkLabel9;
+        private System.Windows.Forms.LinkLabel flinkLabel10;
+        private System.Windows.Forms.LinkLabel olinkLabel11;
+        private System.Windows.Forms.LinkLabel nlinkLabel12;
+        private System.Windows.Forms.LinkLabel mlinkLabel13;
+        private System.Windows.Forms.LinkLabel llinkLabel14;
+        private System.Windows.Forms.LinkLabel klinkLabel15;
+        private System.Windows.Forms.LinkLabel tlinkLabel16;
+        private System.Windows.Forms.LinkLabel slinkLabel17;
+        private System.Windows.Forms.LinkLabel rlinkLabel18;
+        private System.Windows.Forms.LinkLabel qlinkLabel19;
+        private System.Windows.Forms.LinkLabel plinkLabel20;
+        private System.Windows.Forms.LinkLabel ylinkLabel21;
+        private System.Windows.Forms.LinkLabel xlinkLabel22;
+        private System.Windows.Forms.LinkLabel wlinkLabel23;
+        private System.Windows.Forms.LinkLabel vlinkLabel24;
+        private System.Windows.Forms.LinkLabel ulinkLabel25;
+        private System.Windows.Forms.LinkLabel zlinkLabel26;
         private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
